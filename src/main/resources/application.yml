@@ -1,0 +1,8 @@
+spring.cloud.zookeeper:
+  discovery:
+    root: /
+    enabled: true
+  dependency.resttemplate.enabled: false  
+  dependencies:
+    external-service:
+      path: external-service
